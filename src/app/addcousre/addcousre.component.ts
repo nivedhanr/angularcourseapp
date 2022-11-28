@@ -10,11 +10,12 @@ export class AddcousreComponent {
   courseDescription=""
   courseDate=""
   courseDuration=""
+  distributor=""
   courseVenue=""
   
 readValues()
 {
-  let data:any={"courseTitle":this.courseTitle,"courseDescription":this.courseDescription,"courseDuration":this.courseDuration,"courseDate":this.courseDate,"courseVenue":this.courseVenue}
+  let data:any={"courseTitle":this.courseTitle,"courseDescription":this.courseDescription,"courseDuration":this.courseDuration,"distributor":this.distributor,"courseDate":this.courseDate,"courseVenue":this.courseVenue}
   console.log(data)
 }
 }
